@@ -1,0 +1,17 @@
+<div class="users-container" ng-controller="UsersCtrl">
+	<div class="col-md-12">
+		<h3 class="users-header">List of All Users</h3>
+		<hr>
+		<br>
+	</div>
+ 
+	<div class="users-list">
+		<ul ng-repeat="u in users">
+			<li> <label>First Name</label> <span>{{u.firstname}}</span> </li>
+            <li> <label>Last Name</label>  <span>{{u.lastname}}</span> </li>
+			<li> <label>Email</label>      <span>{{u.email}}</span> </li>
+			<li> <label>Password</label>   <span>{{u.password}}</span> </li>
+		</ul>
+	</div>
+ 
+</div>

@@ -4,8 +4,6 @@ var express = require('express');
 var router = express.Router();
 
 // db connection
-var express = require('express');
-var router = express.Router();
 var moment = require('moment');
 var _ = require('underscore');
 var color = require('cli-color');
