@@ -15,6 +15,7 @@
     "debug": "~2.0.0",
     "cli-color": "^0.3.2",
     "underscore": "^1.7.0",
-    "moment": "^2.8.4"
+    "moment": "^2.8.4",
+    "mosca": "^0.26.2"
   }
 }
