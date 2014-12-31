@@ -35,6 +35,10 @@ angular
         templateUrl: 'views/users.html',
         controller: 'UsersCtrl'
       })
+      .when('/mqtt', {
+        templateUrl: 'views/mqtt.html',
+        controller: 'MqttCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
